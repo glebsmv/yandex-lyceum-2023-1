@@ -1,0 +1,17 @@
+--
+-- Файл сгенерирован с помощью SQLiteStudio v3.3.3 в Ср ноя 9 20:44:51 2022
+--
+-- Использованная кодировка текста: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Таблица: id
+CREATE TABLE id (id INTEGER PRIMARY KEY ASC AUTOINCREMENT UNIQUE, director TEXT);
+INSERT INTO id (id, director) VALUES (1, 'Миллер А.С.');
+INSERT INTO id (id, director) VALUES (2, 'Макарову В.В.');
+INSERT INTO id (id, director) VALUES (3, 'Акатовой М.В.');
+INSERT INTO id (id, director) VALUES (4, 'Чеботарёвой Е.А.');
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
